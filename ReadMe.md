@@ -29,13 +29,15 @@ Using NVoice
 Using NVoice is easy. Simply download the most recent NVoice build (NVoice.dll). Or pull down the latest NVoice project, build and use in your project.
 
 Example:  
-`var username = "yourgoogleusername";  
+```  
+var username = "yourgoogleusername";  
 var password = "yourgooglepassword";  
 var phoneNumber = "+123456789";  
 var message = "Hi!";  
 var totalMessages = 0;  
 var sharpVoice = new NVoice.SharpVoice(username, password);  
-var outcome = sharpVoice.SendSMS(phoneNumber, messages, out totalMessages)`  
+var outcome = sharpVoice.SendSMS(phoneNumber, messages, out totalMessages)
+```   
 
 As you can see, we expect the phone format to be very specific. I've used libraries like libphonenumber-csharp for parsing, reading, etc. of phone numbers with <borat>great success!</borat>
 
