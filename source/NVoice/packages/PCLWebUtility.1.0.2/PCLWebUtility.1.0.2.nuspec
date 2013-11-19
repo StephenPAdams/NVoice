@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PCLWebUtility</id>
+    <version>1.0.2</version>
+    <title>WebUtility for Portable Class Library</title>
+    <authors>Petar Paar</authors>
+    <owners>Petar Paar</owners>
+    <projectUrl>http://axilis.hr/webutility-portable-class-library</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains implementation of WebUtility class for Portable Class Library projects.</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>WebUtility Portable Class Library HttpUtility HtmlDecode HtmlEncode UrlDecode UrlEncode</tags>
+    <references>
+      <reference file="PCLWebUtility.dll" />
+    </references>
+  </metadata>
+</package>
